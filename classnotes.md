@@ -35,6 +35,15 @@
 
 4. Learn about arrow function for tomorrow's class
 
+`React.createElement(tag name, attribute or props, children.)`
+`createElement` lets you create a React element. It serves as an alternative to writing `JSX.`
+const element = createElement(type, props, ...children)
+Creating an element without JSX 
+If you don’t like JSX or can’t use it in your project, you can use createElement as an alternative.
+To create an element without JSX, call createElement with some type, props, and children:
+import { createElement } from 'react';
+
+
 <!-- React——is just a piece of  javascript code
 2cdn—>react,reactDOM
 1.React.createElement()
